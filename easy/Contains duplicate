@@ -13,3 +13,4 @@ public class Solution {
         
     }
 }
+HashSet仅仅存储对象     Set<Integer> set = new HashSet<Integer> ();
