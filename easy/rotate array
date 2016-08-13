@@ -1,0 +1,25 @@
+Rotate an array of n elements to the right by k steps.
+
+For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4].
+
+public class Solution {
+    public void rotate(int[] a, int k) {
+        int spare = 0 ;
+        int[] b = new int[a.length];
+        for(int i=0;i<a.length;i++){
+            b[i] = a[i];
+        }
+         k %= a.length;
+        for(int i=0;i<a.length;i++){
+            if(i+k<a.length){
+                a[i+k] = b [i] ;
+            }else{
+                a[spare] = b[i];
+                spare++;
+            }
+        }
+        
+    }
+}
+use another  array to store original array a.  These is a pipfall you need to mention.If k+i>a.lenght, has another way. You need to 
+let k % a.length. In other words, let k be small. left smal
