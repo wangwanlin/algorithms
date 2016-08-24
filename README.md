@@ -9,7 +9,11 @@ some algorithms
     [Remove Duplicates from Sorted Array](https://github.com/wangwanlin/algorithms/blob/master/easy/%20Remove%20Duplicates%20from%20Sorted%20Array) | 删除重复数字，两个指针
     [power of three.docx](https://github.com/wangwanlin/algorithms/blob/master/easy/power%20of%20three.docx) | 是否是三的指数
     [rotate array](https://github.com/wangwanlin/algorithms/blob/master/easy/rotate%20array) | 数组元素后移，k %= a.length，k要先取下余
-    
+
+#medium algorithms
+    文件名|描述
+   ----|----
+   [range sum query](https://github.com/wangwanlin/algorithms/blob/master/medium/range%20sum%20query.txt) |  求数组和effectively
     
     
    
